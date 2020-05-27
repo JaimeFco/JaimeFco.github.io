@@ -2,7 +2,7 @@
 title               : JaimeFco live!
 description         : >-
                       "Amante de la tecnología 👨🏽‍💻, las matemáticas,
-                      física y la lectura. #Nerdfighter.
+                      la física y la lectura. #Nerdfighter.
                       Escritor amateur 📝 y buen amigo 🖖🏾"
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : JaimeFco/jaimefco.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
@@ -34,7 +34,7 @@ author:
   facebook          : jaime.fag
   github            : JaimeFco
 # gitlab            : your_username
-instagram           : ijaimefco
+# instagram           : ijaimefco
 # kaggle            : your_username
 # linkedin          : your_username
 # medium            : iJaimeFco
