@@ -246,7 +246,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  font-awesome-sass
+  font-awesome-sass (~> 5.12.0)
   github-pages
 
 BUNDLED WITH
