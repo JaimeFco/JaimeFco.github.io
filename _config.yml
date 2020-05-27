@@ -28,7 +28,7 @@ nav_exclude:                                            # The following paths ar
 author:
   name              : Jaime Fco Aguayo González
   image             : https://scontent.fbjx1-1.fna.fbcdn.net/v/t1.0-9/52345112_10216262500667085_8357957769050980352_n.jpg?_nc_cat=107&_nc_sid=85a577&_nc_eui2=AeF7k_N9SIvsv0B_LrYs8vwYv9DcycCWF0e_0NzJwJYXR-DLbIVm69nwC0Ye3BKUYZU&_nc_ohc=lwpmnNuhHggAX9H6gUg&_nc_ht=scontent.fbjx1-1.fna&oh=6fc24177a6e3e7ae77f9f5d9694edf3d&oe=5EF5AFD4
-  behance           : your_username
+# behance           : your_username
 # dribbble          : your_username
   email             : jaimefaguayo@hotmail.com
   facebook          : jaime.fag
@@ -45,7 +45,7 @@ author:
 # twitch            : your_username
   twitter           : iJaimeFco
 # vimeo             : your_username
-# youtube           : your_channel_name
+youtube           : channel/UCq-QDT1S3MdaR12DChoitDg
 
 
 ### Posts ###
