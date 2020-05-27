@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : JaimeFco live!
 description         : >-
-                      "Amante de la tecnología 👨🏽‍💻, matemáticas,
+                      "Amante de la tecnología 👨🏽‍💻, las matemáticas,
                       física y la lectura. #Nerdfighter.
                       Escritor amateur 📝 y buen amigo 🖖🏾"
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
@@ -34,7 +34,7 @@ author:
   facebook          : jaime.fag
   github            : JaimeFco
 # gitlab            : your_username
-instagram         : ijaimefco
+instagram           : ijaimefco
 # kaggle            : your_username
 # linkedin          : your_username
 # medium            : iJaimeFco
