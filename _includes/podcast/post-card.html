@@ -1,0 +1,49 @@
+{%- comment -%} Default Styles {%- endcomment -%}
+{%- assign card_style  = '' -%}
+{%- assign text_style  = 'text-dark' -%}
+{%- assign badge_style = 'badge-dark' -%}
+
+{%- comment -%} Update Styles {%- endcomment -%}
+{%- if pod.style == 'fill' -%}
+  {%- assign card_style = pod.color | prepend: 'bg-' -%}
+  {%- if pod.color != 'light' -%}
+    {%- assign text_style  = 'text-white' -%}
+    {%- assign badge_style = 'badge-light text-' -%}
+    {%- assign badge_style = badge_style | append: pod.color -%}
+  {%- endif -%}
+{%- else -%}
+  {%- assign card_style = pod.color | prepend: 'border border-' -%}
+  {%- if pod.color -%}
+    {%- assign badge_style =  pod.color | prepend: 'badge-' -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- comment -%} Determine pod URL {%- endcomment -%}
+{%- if pod.external_url -%}
+  {%- assign pod_url = pod.external_url -%}
+{%- else -%}
+  {%- assign pod_url = pod.url | relative_url -%}
+{%- endif -%}
+
+<div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s">
+  <a href="{{ pod_url }}" class="post card {{ card_style }}">
+    <div class="card-body {{ text_style }}">
+      <h3 class="card-title">{{ pod.title }}</h3>
+      <p class="card-text">
+        {% for tag in pod.tags %}
+        <span class="badge {{ badge_style }}">{{ tag }}</span>
+        {% endfor %}
+      </p>
+      <p class="card-text">
+        {%- if pod.description -%}
+        {{ pod.description }}
+        {%- else -%}
+        {{ pod.content | truncatewords: 25, "<small><i>  read more...</i></small>" }}
+        {%- endif -%}
+      </p>
+    </div>
+    <div class="card-footer {{ text_style }}">
+      {{ pod.date | date_to_long_string }}
+    </div>
+  </a>
+</div>
