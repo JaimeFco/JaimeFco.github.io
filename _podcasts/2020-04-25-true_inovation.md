@@ -7,7 +7,7 @@ image:
 tags: [Science, Innovation, Technology, Computer, Creativity, Podcast]
 style:
 color:
-description: Los descubrimientos científicos e invenciones tecnológicas parece que han alcanzado una aceleración en los últimos años. Tan solo basta con observar el número de artículos de investigación y registros de patentes de los años recientes. Pero... ¿Ese conocimiento que se genera es de verdad innovador?
+description: Los descubrimientos científicos e invenciones tecnológicas parece que han acelerado en los últimos años. Tan solo basta con observar el número de artículos de investigación y registros de patentes de los años recientes. Pero... ¿Ese conocimiento que se genera es de verdad innovador?
 ---
 
 
