@@ -30,7 +30,8 @@
     <div class="card-body {{ text_style }}">
       <h3 class="card-title">{{ pod.title }}</h3>
       <p class="card-text">
-        <span class="badge badge-info">S:{{ pod.season }} E:{{ pod.episode }}</span>
+        <span class="badge badge-info">S:{{ pod.season }} E:{{ pod.episode }}</span> <br>
+        ***
         {% for tag in pod.tags %}
         <span class="badge {{ badge_style }}">{{ tag }}</span>
         {% endfor %}
