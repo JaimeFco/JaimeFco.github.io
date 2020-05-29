@@ -1,17 +1,28 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: Student, DEMAT Universidad de Guanajuato
+  from: 2015
+  to: 2020
+  description: Estudiante de la licenciatura en Computación Matemática
+               con amplios conocimientos en aprendizaje estadístico y
+               optimización. Gran componente matemático proporcionado por CIMAT
 
-- title: Software Engineer, Google, UK
+- title: Research assitance, Universidad de Guanajuato, Mx
   from: 2018
-  to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  to: 2019
+  description: Estancia de investigación con el Dr. Carlos RCordurier,
+               director del departamento de ciencias políticas de la UG,
+               haciendo un análisis de series de tiempo de OSC. Artículo
+               pendiente de publicación <i>The Growth of Civil Societies Organisations
+               in México</i>.
+
+- title: Intern, MITACS Globalink, Ca
+  from: June 2019
+  to: Sep 2019
+  description: Estancia de investigación en <i>Western University</i> con proyecto de
+               <i>smart mobility</i> y <i>edge computing</i>.
+
+- title: Intern, Continental, Mx
+  from: 2020
+  to: 2019
+  description: Realicé una pasantía en el área de <i>Artificial Inteligence & Robotics</i> (AIRS),
+               trabajando en métodos de cuantización para modelos de <i>Deep Learning</i>.
+               Desafortunadamente no puedo compartir detalles del proyecto 🤭.
