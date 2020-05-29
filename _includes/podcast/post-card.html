@@ -29,8 +29,8 @@
   <a href="{{ pod_url }}" class="post card {{ card_style }}">
     <div class="card-body {{ text_style }}">
       <h3 class="card-title">{{ pod.title }}</h3>
+      <h4><span class="badge badge-info">T:{{ pod.season }} E:{{ pod.episode }}</span></h4>
       <p class="card-text">
-        <span class="badge badge-info">S:{{ pod.season }} E:{{ pod.episode }}</span>
         {% for tag in pod.tags %}
         <span class="badge {{ badge_style }}">{{ tag }}</span>
         {% endfor %}

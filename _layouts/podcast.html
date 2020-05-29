@@ -1,7 +1,8 @@
 ---
 layout: page
 ---
-<h1><b>T{{ page.season }}E{{ page.episode }}: {{ page.title }}</b></h1>
+<h1><b>{{ page.title }}</b></h1>
+<h3><span class="badge badge-info">Temporada {{ page.season }} - Episodio {{ page.episode }}</span></h3>
 
 <p class="post-metadata text-muted">
   {{ page.date | date_to_long_string }} -
@@ -28,20 +29,16 @@ layout: page
 </p>
 
 <p>{{ page.description }}</p>
-<br>
-<h3> ¡Escúchalo ahora! </h3>
+<hr>
+<h4> ¡Escúchalo ahora! </h4>
 <audio controls autoplay id="audio-block" preload="metadata">
   <source src="{{ page.url }}">
     You will see this text if native audio playback is not supported.
 </audio>
 <br>
-<small>Audio by JaimeFco [<a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>]</small>
+<small>Audio by JaimeFco [<a href="https://creativecommons.org/licenses/by-nc-nd/4.0">CC BY-NC-ND 4.0</a>]</small>
 
-<div>
-	<button onclick="document.getElementById('player').volume+=0.1">Volume Up</button>
-	<button onclick="document.getElementById('player').volume-=0.1">Volume Down</button>
-</div>
-<br>
+<br> <br>
 
 {{ content }}
 
