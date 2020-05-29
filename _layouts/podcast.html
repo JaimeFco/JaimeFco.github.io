@@ -1,6 +1,7 @@
 ---
 layout: page
 ---
+#audio-block {  display: block; }
 
 <h1><b>T{{ page.season }}E{{ page.episode }}: {{ page.title }}</b></h1>
 
@@ -31,6 +32,14 @@ layout: page
 <p>{{ page.description }}</p>
 <br>
 <h3> ¡Escúchalo ahora! </h3>
+<audio controls id="audio-block">
+  <source src="{{ page.url }}">
+    You will see this text if native audio playback is not supported.
+</audio>
+<small>Audio by JaimeFco [<a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>],
+  <a href="https://commons.wikimedia.org/wiki/File%3AArtis%2C_enkele_flamingo's_-_SoundCloud_-_Beeld_en_Geluid.ogg">via Wikimedia Commons</a>
+</small> 
+
 
 <audio controls id="player">
   <source src="{{ page.url }}" preload="auto" >
