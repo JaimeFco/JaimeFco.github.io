@@ -30,7 +30,7 @@ layout: page
 <p>{{ page.description }}</p>
 <br>
 <h3> ¡Escúchalo ahora! </h3>
-<audio controls autoplay id="audio-block" preload="auto">
+<audio controls autoplay id="audio-block" preload="metadata">
   <source src="{{ page.url }}">
     You will see this text if native audio playback is not supported.
 </audio>
@@ -41,6 +41,7 @@ layout: page
 	<button onclick="document.getElementById('player').volume+=0.1">Volume Up</button>
 	<button onclick="document.getElementById('player').volume-=0.1">Volume Down</button>
 </div>
+<br>
 
 {{ content }}
 
