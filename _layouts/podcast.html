@@ -30,7 +30,7 @@ layout: page
 <p>{{ page.description }}</p>
 <br>
 <h3> ¡Escúchalo ahora! </h3>
-<audio controls id="audio-block">
+<audio controls autoplay id="audio-block" preload="auto">
   <source src="{{ page.url }}">
     You will see this text if native audio playback is not supported.
 </audio>
