@@ -35,7 +35,10 @@
         {% endfor %}
       </p>
       <p class="card-text">
-        <strong>Temporada {{ pod.season }}</strong>
+        <span class="badge badge-pill badge-light">Temp. {{ pod.season }}</span>
+        <span class="badge badge-pill badge-light"> # {{ pod.episode }}</span>
+      </p>
+      <p class="card-text">
         {%- if pod.description -%}
         {{ pod.description }}
         {%- else -%}
