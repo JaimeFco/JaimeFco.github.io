@@ -33,10 +33,7 @@
         {% for tag in pod.tags %}
         <span class="badge {{ badge_style }}">{{ tag }}</span>
         {% endfor %}
-      </p>
-      <p class="card-text">
-        <span class="badge badge-pill badge-light">Temp. {{ pod.season }}</span>
-        <span class="badge badge-pill badge-light">E {{ pod.episode }}</span>
+        <span class="badge badge-light">Temp. {{ pod.season }}</span>
       </p>
       <p class="card-text">
         {%- if pod.description -%}
