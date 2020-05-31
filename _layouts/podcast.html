@@ -31,10 +31,17 @@ layout: page
 <p>{{ page.description }}</p>
 <hr>
 <h4> ¡Escúchalo ahora! </h4>
-<audio controls autoplay id="audio-block" preload="auto">
-  <source src="{{ page.file }}">
-    You will see this text if native audio playback is not supported.
-</audio>
+
+<div class="col-sm-8 col-sm-offset-4 embed-responsive embed-responsive-1by1">
+  <iframe frameborder="0" scrolling="no" width="75%" height="75%"
+   src="{{ page.image }}">
+  </iframe>
+  <!-- <img src="{{ page.image }}" alt="Logo JF live!"> -->
+    <audio controls class="embed-responsive-item">
+        <source src="{{ page.file }}">
+    </audio>
+</div>
+
 <br>
 <small>Audio by JaimeFco [<a href="https://creativecommons.org/licenses/by-nc-nd/4.0">CC BY-NC-ND 4.0</a>]</small>
 
