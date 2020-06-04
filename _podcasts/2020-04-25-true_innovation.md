@@ -17,4 +17,4 @@ explicit:
 ### JF live! T1: Charlas nocturnas
 Empezamos la primer temporada "Charlas nocturnas" de **JF live!**.
 
-Estén atentos, porque esta primera temporada está dedicado al desarrollo de tecnología.
+Estén atentos porque esta primera temporada está dedicado al desarrollo de ciencia y tecnología.
