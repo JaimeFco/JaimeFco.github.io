@@ -32,26 +32,27 @@ layout: page
 <hr>
 <h4> ¡Escúchalo ahora! </h4>
 
-<div class="col-sm-8 col-sm-offset-4 embed-responsive embed-responsive-1by1">
-  <iframe frameborder="0" scrolling="no" width="75%" height="75%"
-   src="{{ page.image }}">
-  </iframe>
-    <audio controls class="embed-responsive-item">
-        <source src="{{ page.file }}">
-    </audio>
-</div>
-
-<p>Si tienes problemas para reproducir el audio, da clic acá 
-  <a href="{{ page.anchor }}">{{ page.title }} in Anchor</a>
-</p>
-
+{% if page.anchor %}
+    <iframe src="{{ page.anchor }}" height="108px" width="480px" frameborder="0" scrolling="no"></iframe>
+{% else %}
+    <div class="col-sm-6 col-sm-offset-4 embed-responsive embed-responsive-1by1">
+      <iframe frameborder="0" scrolling="no" width="75%" height="75%"
+       src="{{ page.image }}">
+      </iframe>
+        <audio controls class="embed-responsive-item">
+            <source src="{{ page.file }}">
+        </audio>
+    </div>
+{% endif %}
+<br>
+<small>&copy 2020 Jaime Fco Aguayo.  All rights reserved</small>
+<br>
+<br>
 <br>
 
 {{ content }}
 
 <br>
-
-<small>Audio by JaimeFco [<a href="https://creativecommons.org/licenses/by-nc-nd/4.0">CC BY-NC-ND 4.0</a>]</small>
 
 {% if page.comments %}
 <div class="pt-5">
