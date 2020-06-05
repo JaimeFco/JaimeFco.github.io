@@ -36,18 +36,22 @@ layout: page
   <iframe frameborder="0" scrolling="no" width="75%" height="75%"
    src="{{ page.image }}">
   </iframe>
-  <!-- <img src="{{ page.image }}" alt="Logo JF live!"> -->
     <audio controls class="embed-responsive-item">
         <source src="{{ page.file }}">
     </audio>
 </div>
 
-<br>
-<small>Audio by JaimeFco [<a href="https://creativecommons.org/licenses/by-nc-nd/4.0">CC BY-NC-ND 4.0</a>]</small>
+<p>Si tienes problemas para reproducir el audio, da clic acá 
+  <a href="{{ page.anchor }}">{{ page.title }} in Anchor</a>
+</p>
 
-<br> <br>
+<br>
 
 {{ content }}
+
+<br>
+
+<small>Audio by JaimeFco [<a href="https://creativecommons.org/licenses/by-nc-nd/4.0">CC BY-NC-ND 4.0</a>]</small>
 
 {% if page.comments %}
 <div class="pt-5">
