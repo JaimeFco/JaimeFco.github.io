@@ -13,7 +13,7 @@ Corría el fabuloso año de 2010 cuando subí algunos videos a YouTube. Esos vid
 
 La verdad es que la edición de los videos me tomaba una eternidad, así como subir los videos a YouTube con mis flamantes 4 mb de bajada y 0.6 mb de subida. Finalmente lo único que sobrevivió de todo eso, fue la capacidad para redactar guiones, así que dediqué algún tiempo en escribir tres adaptaciones: "Apología de Sócrates Revisada", "El Príncipe Feliz" y "La Sílfide", además de un guión original llamado "En algún lugar de la Luna". El video de "La Sílfide" debe seguir disponible por ahí en internet.
 
-El segundo intento de compartir mis ideas, surgió como un blog que tenía en Flickr, donde escribí una serie de relatos cortos titulados "Historias de Una Vida: Un Cielo Lleno de Estrellas". Fue exitoso, y pronto reconocí que tal vez la forma correcta de redactarlo, no era en un blog, sino en un eBook, que aún sigue en redacción.
+El segundo intento de compartir mis ideas, surgió como un blog que tenía en Tumblr, donde escribí una serie de relatos cortos titulados "Historias de Una Vida: Un Cielo Lleno de Estrellas". Fue exitoso, y pronto reconocí que tal vez la forma correcta de redactarlo, no era en un blog, sino en un eBook, que aún sigue en redacción.
 
 Otros intentos fueron el crear una página web para compartir el entusiasmo por la ciencia. Este pequeño blog llamado "La ciencia en poder", se quedó huérfano después de 5 entradas debido al nulo número de visitas. Aún así, no me rendí y publiqué estas entradas en una revista local de entretenimiento. El director de la revista era un apasionado de la moda y la fotografía. Con su ayuda, mis redacciones pasaron a ser visualmente más atractivas. Pero ese proyecto murió después de que la revista no pudo sostenerse.
 

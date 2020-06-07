@@ -11,7 +11,7 @@ weight: 3
 Un día simplemente dije «Vamos a escribir cosas entretenidas», y por eso hice el blog. Otro día empecé a hacer videos en YouTube, pero ese formato no me funcionó. Ahora hago podcast de ciencia. Me gusta el aprendizaje estadístico, las matemáticas y siento una atracción por las ciencias sociales (en particular la ciencia política y la filosofía).
 
 
-...ah! olvidaba decir que también me gusta escribir novelas cortas.¡Próximamente estarán disponibles!
+...ah! Olvidaba decir que también me gusta escribir novelas cortas. ¡Próximamente estarán disponibles!
 
 
 <div class="row">
