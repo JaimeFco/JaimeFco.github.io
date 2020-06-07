@@ -33,7 +33,9 @@ layout: page
 <h4> ¡Escúchalo ahora! </h4>
 
 {% if page.anchor %}
-    <iframe src="{{ page.anchor }}" height="108px" width="480px" frameborder="0" scrolling="no"></iframe>
+  <div class="col-sm-6 col-sm-offset-4">
+    <iframe src="{{ page.anchor }}" height="100px" width="360px" frameborder="0" scrolling="no"></iframe>
+  </div>
 {% else %}
     <div class="col-sm-6 col-sm-offset-4 embed-responsive embed-responsive-1by1">
       <iframe frameborder="0" scrolling="no" width="75%" height="75%"
@@ -44,7 +46,6 @@ layout: page
         </audio>
     </div>
 {% endif %}
-<br>
 <small>&copy 2020 Jaime Fco Aguayo.  All rights reserved</small>
 <br>
 <br>
