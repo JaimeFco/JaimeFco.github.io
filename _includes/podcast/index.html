@@ -1,7 +1,10 @@
-<div class="card-group mt-2">
 
+<div class="text-center">
+  <img src="https://podcaststorage2112.blob.core.windows.net/logos/iconGeneral.png" class="rounded mx-auto" style="width: 250px;" alt="Podcast">
+</div>
+
+<div class="card-group mt-2">
   {% for pod in site.podcasts %}
     {% include podcast/post-card.html %}
   {% endfor %}
-
 </div>
