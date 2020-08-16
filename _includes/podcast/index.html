@@ -1,10 +1,28 @@
+<!-- Get number of seasons -->
+{%- assign nSeasons = 0 -%}
+{% for pod in site.podcasts %}
+  {%- if pod.season > nSeasons -%}
+    {%- assign nSeasons = pod.season -%}
+  {%- endif -%}
+{% endfor %}
 
-<div class="text-center">
+<div class="text-center mt-2">
   <img src="https://podcaststorage2112.blob.core.windows.net/logos/iconGeneral.png" class="rounded mx-auto" style="width: 250px;" alt="Podcast">
 </div>
-
-<div class="card-group mt-2">
-  {% for pod in site.podcasts %}
-    {% include podcast/post-card.html %}
-  {% endfor %}
+<div class="row justify-content-md-center">
+<div class="col-6 mx-2">
+  <p>Un podcast en español sobre ciencia, tecnología, cultura y temas que causan polémicas.
+    Un lugar a donde se llega con preguntas, y se sale con aún más preguntas.</p>
 </div>
+</div>
+
+{% for i in (1..nSeasons) %}
+<h3>Temporada {{ i }}</h3>
+  <div class="card-group mt-2">
+    {% for pod in site.podcasts %}
+      {% if pod.season == i %}
+        {% include podcast/post-card.html %}
+      {%endif%}
+    {% endfor %}
+  </div>
+{% endfor %}

@@ -25,8 +25,14 @@
   {%- assign pod_url = pod.url | relative_url -%}
 {%- endif -%}
 
-<div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".30s">
-  <a href="{{ pod_url }}" class="post card {{ card_style }}">
+
+
+<div class="wow animated fadeIn" data-wow-delay=".30s">
+  <a href="{{ pod_url }}" class="card mb-2 {{ card_style }}">
+    <img class="card-img-top"
+      src="{%- if pod.image -%}{{ pod.image }}{%- else -%}https://podcaststorage2112.blob.core.windows.net/logos/iconGeneral.png{%- endif -%}"
+      alt="JF live! image">
+
     <div class="card-body {{ text_style }}">
       <h3 class="card-title">{{ pod.title }}</h3>
       <h4><span class="badge badge-info">T:{{ pod.season }} E:{{ pod.episode }}</span></h4>
@@ -35,10 +41,9 @@
         <span class="badge {{ badge_style }}">{{ tag }}</span>
         {% endfor %}
       </p>
-
       <p class="card-text">
         {%- if pod.description -%}
-        {{ pod.description }}
+        {{ pod.description | truncatewords: 25, "<small><i>  read more...</i></small>" }}
         {%- else -%}
         {{ pod.content | truncatewords: 25, "<small><i>  read more...</i></small>" }}
         {%- endif -%}
