@@ -1,9 +1,9 @@
 ### Site Settings ###
 title               : JaimeFco live!
 description         : >-
-                      "Amante de la tecnología 👨🏽‍💻, las matemáticas,
+                      Amante de la tecnología 👨🏽‍💻, las matemáticas,
                       la física y la lectura. #Nerdfighter.
-                      Escritor amateur 📝 y buen amigo 🖖🏾"
+                      Escritor amateur 📝 y buen amigo 🖖🏾.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : JaimeFco/jaimefco.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU@v2.2.2
