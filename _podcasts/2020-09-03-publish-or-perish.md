@@ -5,7 +5,7 @@ episode: 5
 episodeType:
 file: https://podcaststorage2112.blob.core.windows.net/one/03.m4a
 image: https://podcaststorage2112.blob.core.windows.net/logos/icon01.png
-anchor: https://anchor.fm/jf-live/embed/episodes/Publica-o-claudica-ej3bf5
+anchor: https://anchor.fm/jf-live/embed/episodes/Publica-o-Claudica-ej3bf5
 description: ¿Te has preguntado qué tan rápido se publican artículos de investigación? Te sorprenderá saber que en cada año se publica con mayor rapidez ¿Eso implica una mayor productividad en las ciencias? En este episodio descubriremos la cultura del Publish or Perish.
 tags: [Science, Research, Publications, Podcast]
 style:
