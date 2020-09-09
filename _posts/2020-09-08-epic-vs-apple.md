@@ -1,6 +1,6 @@
 ---
 title: La Épica batalla.
-tags: [AI, ANN, Computer Science, Technology]
+tags: [Tecnología, Actualidad, Crítica]
 style:
 color: info
 description: La batalla legal entre Épic y Apple nos pone a reflexionar sobre las desigualdades económicas y de oportunidades.
