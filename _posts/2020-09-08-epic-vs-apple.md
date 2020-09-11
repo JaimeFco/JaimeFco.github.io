@@ -1,6 +1,6 @@
 ---
-title: La Épica batalla.
-tags: [Tecnología, Actualidad, Crítica]
+title: La Épica Batalla.
+tags: [AI, ANN, Computer Science, Technology]
 style:
 color: info
 description: La batalla legal entre Épic y Apple nos pone a reflexionar sobre las desigualdades económicas y de oportunidades.
@@ -67,13 +67,13 @@ Los intenciones son más que patentes, Epic quiere controlar **sus** apps en **s
 
 Veamos ahora la tiranía de Apple. De su lado, podemos cuestionarnos si es justo o no que ponga restricciones al no permitir que haya otras tiendas de Apps que no sean la App Store. Al menos no de forma legal, pues desde casi el propio origen del iPhone, han existido formas de ser verdaderamente el propietario de tu dispositivo. Algo que de hecho no está prohibido por ley, pero sí que las empresas no te reconoce la garantía si llevas a cabo estas prácticas. Al menos [era legal hasta hace poco en México](https://blog.desdelinux.net/peligro-software-libre-gnu-linux-leyes-mexico/) también.
 
-Permitir varias tiendas en sus dispositivos, favorecería a una competencia por captar desarrolladores, y podríamos seleccionar la mejor opción ¿No? En papel suena bien, pero no es algo que veamos muy seguido en Android, donde la Play Store sigue teniendo un papel hegemónico. Además, siendo los dispositivos de Apple, no veo porque se deba abrir a otras tiendas de apps. Como consumidores, aceptamos ese hecho y decidimos comprar un iPhone a pesar de tener otras opciones *App-Store free*. De hecho, el movimiento de Apple es tender a cerrar cada vez más su ecosistema en vez de abrirlo, justo lo opuesto, que curioso.
+Permitir varias tiendas en sus dispositivos, favorecería a una competencia por captar desarrolladores, y podríamos seleccionar la mejor opción ¿No? En papel suena bien, pero no es algo que veamos muy seguido en Android, donde la Play Store sigue teniendo un papel hegemónico, por lo que una mayor apertura no se traduce en mejor competencia. Además, siendo los dispositivos de Apple, no veo porque se deba abrir a otras tiendas de apps. Como consumidores, aceptamos ese hecho y decidimos comprar un iPhone a pesar de tener otras opciones *App-Store free*. De hecho, el movimiento de Apple es tender a cerrar cada vez más su ecosistema en vez de abrirlo, justo lo opuesto, que curioso.
 
 Recordemos un momento los aspectos positivos de las App Store. Antes de estas tiendas de promoción de apps, los desarrolladores de pequeñas apps o videojuegos, no tenían mercado. ¿Se imaginan tener que mitigar con tu propia distribución de apps desde un inicio? Es algo prohibitivo para alguien que apenas lanza su primera aplicación, mientras que esto beneficiaría a las grandes compañias, o genete de recursos que pueda con una campaña de mercadotecnia y posibilidades de distribución mundial.
 
 Y en este contexto, podría mencionar un caso un poco análogo. Cuando decidí empezar a grabar un podcast, hice cuentas de cuánto me costaba yo mismo alojar mis episodios, un generdor de RSS feeder y un sitio web. El costo era inalcansable para un podcast que no sabía si tendría éxito o no. Así que sucumbí a uno de los grandes sitios de alojamiento gratuito. Aunque ojo, las reglas para los podcast son muy diferentes, y aún así hay pocas opciones en latinoamérica para monetizar un podcast.
 
-En fin, tampoco estoy diciendo que Apple tenga razón y que debemos elogiar la App Store, pero no hay que ignorar el poder que ha tenido para posicionar apps de pequeños desarrolladores. Por otro lado, podemos sí quejarnos de la comisión del 30%. Más en México donde apenas hasta hace poco se decidió cobrar un impuesto a estas ganancias de las grandes empresas, que por desgracia, decidieron cargar al consumidor (Netflix, te estoy hablando a ti).
+En fin, tampoco estoy diciendo que Apple tenga razón y que debemos elogiar la App Store, pero no hay que ignorar el poder que ha tenido para posicionar apps de pequeños desarrolladores. Por tanto, no podemos considerar a Apple como un tirano. Por otro lado, podemos sí quejarnos de la comisión del 30%. Más en México donde apenas hasta hace poco se decidió cobrar un impuesto a estas ganancias de las grandes empresas, que por desgracia, decidieron cargar al consumidor (Netflix, te estoy hablando a ti).
 
 ## Terreno desigual
 
