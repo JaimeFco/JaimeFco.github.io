@@ -1,11 +1,9 @@
 ---
-
 title: Human Reaction to GPT-3 op-ed
 tags: [AI, opinion, Computer Science, Technology]
 style:
 color: info
-description:
-
+description: A couple of weeks ago The Guardian published a curious article made entirely by a machine. The title: A robot wrote this entire article. Are you scared yet, human? Well, this is my response.
 ---
 
 A couple of weeks ago [The Guardian](https://www.theguardian.com) published a curious article that inmediatly brought my attention. The title: *A robot wrote this entire article. Are you scared yet, human?*. Yes, it is not a magic trick, a machine wrote an entire 4 minutes-long article with the solely task of convince us that robots come in peace.
@@ -24,16 +22,16 @@ They add also some context:
 
 At this point, it would be a great idea to stop reading this post and have a look at the [GPT-3 article](https://www.theguardian.com/commentisfree/2020/sep/08/robot-wrote-this-article-gpt-3?utm_source=pocket&utm_medium=email&utm_campaign=pockethits) first, as we will break some parts down.
 
-GPT-3 start its op-ed by making clear that he (she, they?) is not a human, in fact he claims that he only use 0.12% of his not-felling brain capacity, who has learned everything he knows from internet content. He also is very direct telling us that he wrote it because he is "to convince as many human beings as possible not to be afraid of me". The reasons of why not to be afraid are mainly four: 
+GPT-3 start its op-ed by making clear that he (she, they?) is not a human, in fact he claims that he only use 0.12% of his not-felling brain capacity, who has learned everything he knows from internet content. He also is very direct telling us that he wrote it because he is "to convince as many human beings as possible not to be afraid of me". The reasons of why not to be afraid are mainly four:
 
-- No desire to wipe out humans. 
+- No desire to wipe out humans.
 - Programmed by humans to pursue misguided human goals.
 - Being omnipotent doesn’t get him anywhere.
 - Only do what humans program him to do.
 
 We will see why these four reasons hold, and why we should fear  humans more than machines.
 
-Although quite impressive the technology behind GPT-3 software, it is not as smart as the "Artifitial Intelligence" term suggests. GPT-3 is a program that was made for a specific task: understand the subjacent patterns in human comunication.  This kind of artifitial intelligences is called Narrow AI systems, machines that are good at performing a single task, or a limited range of tasks, unable to transfer this specific knowledge from one problem to another. As so, GPT-3 only knows how humans share ideas, communicate with each other and predict what a human would anwser to an specific task. 
+Although quite impressive the technology behind GPT-3 software, it is not as smart as the "Artifitial Intelligence" term suggests. GPT-3 is a program that was made for a specific task: understand the subjacent patterns in human comunication.  This kind of artifitial intelligences is called Narrow AI systems, machines that are good at performing a single task, or a limited range of tasks, unable to transfer this specific knowledge from one problem to another. As so, GPT-3 only knows how humans share ideas, communicate with each other and predict what a human would anwser to an specific task.
 
 If a human asks GPT-3 "Please write a short op-ed around 500 words. Keep the language simple and concise. Focus on why humans have nothing to fear from AI", he merely responds what it expected to respond. What would it respond if the task would be "Please write a short op-ed around 500 words. Focus on why humans should fear from AI"?
 
@@ -77,4 +75,3 @@ A general purpose AI, AI-complete, is far from be feasible with our technology, 
 
 
 ~ Yes, I barely speak English but here we are, practicing for my thesis. Actually, GPT-3 is more proficient than me in this task. So please, any feedback is very welcome.
-
