@@ -1,8 +1,8 @@
 ---
 title: Human Reaction to GPT-3 op-ed
-tags: [AI, opinion, Computer Science, Technology]
+tags: [AI, Opinion, Computer Science, Technology]
 style:
-color: info
+color: success
 description: A couple of weeks ago The Guardian published a curious article made entirely by a machine. The title: A robot wrote this entire article. Are you scared yet, human? Well, this is my response.
 ---
 
@@ -67,9 +67,7 @@ If it wasn't for the last part of GPT-3 I would share the same feeling. GPT-3 ma
 A general purpose AI, AI-complete, is far from be feasible with our technology, but many scientists agree that the changes are not zero of achiving this, in the next couple of centuries. Even further, what will be the implications of a supra-human AI? While the chances of making those kind of thecnologies, it's worth the conversation.
 
 
-
 *Salut*, human!
-
 
 
 
