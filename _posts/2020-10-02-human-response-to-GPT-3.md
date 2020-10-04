@@ -1,9 +1,9 @@
 ---
-title: Human After All
+title: Nothing to be afraid of... yet.
 tags: [AI, Opinion, Computer Science, Technology]
 style:
 color: info
-description: An AI published the article A robot wrote this entire article. Are you scared yet, human? Here is my response.
+description: An AI published a brief op-ed about why humans have nothing to fear from AI. Here is my response.
 ---
 
 A couple of weeks ago [The Guardian](https://www.theguardian.com) published a curious article that inmediatly brought my attention. The title: *A robot wrote this entire article. Are you scared yet, human?*. Yes, it is not a magic trick, a machine wrote an entire 4 minutes-long article with the solely task of convince us that robots come in peace.
@@ -64,7 +64,9 @@ If it wasn't for the last part of GPT-3 I would share the same feeling. GPT-3 ma
 - Why we should fear the use of AI for malicious human goals? How can we control the development of this technology?
 - Should human level AI machines have the same rights as humans? (if we manage to create them of course)
 
-A general purpose AI, AI-complete, is far from be feasible with our technology, but many scientists agree that the changes are not zero of achiving this, in the next couple of centuries. Even further, what will be the implications of a supra-human AI? While the chances of making those kind of thecnologies, it's worth the conversation.
+A general purpose AI, AI-complete, is far from be feasible with our technology, but many scientists agree that the changes are not zero of achieving this, in the next couple of centuries. Even further, what will be the implications of a supra-human AI?
+
+While the chances of making those kind of technologies, it's worth the conversation. And we will have this conversation in this blog. This is just the beginning.
 
 
 *Salut*, human!
