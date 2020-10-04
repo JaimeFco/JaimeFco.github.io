@@ -1,5 +1,5 @@
 ---
-title: "Human Reaction to GPT-3 op-ed"
+title: "Human Reaction to ML op ed"
 tags: [AI, Opinion, Computer Science, Technology]
 style:
 color: success
