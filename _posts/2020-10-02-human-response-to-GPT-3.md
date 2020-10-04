@@ -6,7 +6,7 @@ color: info
 description: An AI published a brief op-ed about why humans have nothing to fear from AI. Here is my response.
 ---
 
-A couple of weeks ago [The Guardian](https://www.theguardian.com) published a curious article that inmediatly brought my attention. The title: *A robot wrote this entire article. Are you scared yet, human?*. Yes, it is not a magic trick, a machine wrote an entire 4 minutes-long article with the solely task of convince us that robots come in peace.
+A couple of weeks ago [The Guardian](https://www.theguardian.com) published a curious article that inmediatly brought my attention. The title: *A robot wrote this entire article. Are you scared yet, human?*. Yes, it is not a magic trick, a machine wrote an entire 5 minutes-long article with the solely task of convince us that robots come in peace.
 
 <img src="https://i1.wp.com/bdtechtalks.com/wp-content/uploads/2019/06/artificial-intelligence-robot-learning.jpg" alt="Black-box" style="zoom:80%;" />
 
