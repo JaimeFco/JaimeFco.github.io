@@ -73,4 +73,4 @@ While the chances of making those kind of technologies, it's worth the conversat
 
 
 
-~ Yes, I barely speak English but here we are, practicing for my thesis. Actually, GPT-3 is more proficient than me in this task. So please, any feedback is very welcome.
+~ Yes, I barely speak English but here we are, practicing for my thesis. Actually, GPT-3 is more proficient than me in this task. So please, any feedback is very welcome. Robots are welcome too.
