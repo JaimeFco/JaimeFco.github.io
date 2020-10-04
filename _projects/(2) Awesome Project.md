@@ -1,20 +1,19 @@
 ---
-name: The Movies Project
-tools: [C#, XML, WPF]
-image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
-description: This project has an individual showcase page, not just a direct link to the project site or repo. Now you have more space to describe your awesome project!
+name: La policia no me cuida
+tools: [HTML, CSS]
+image: https://lapolicianomecuida.org/assets/images/photos/05.jpeg
+description: Tomando ventaja de lo aprendido sobre Jekyll y programación web, adapté un formato para una buena causa.
 ---
 
-# The Movies Project
+# ¿Qué sucedió el 22 de agosto de 2020 en León, Gto?
 
-The Movies Project is something like **Netflix**, the only difference is that **it's not real**! It doesn't exist! I just created it to demonstrate how the **showcase** page looks like and how you can write whatever you want with full markdown support.
+Mujeres y adolescentes salieron a manifestarse a las calles del centro de la ciudad de León, Guanajuato, ciudad vecina de donde vivo, por la [agresión sexual de policías municipales a Evelyn](https://guanajuato.lasillarota.com/estados/el-caso-de-evelyn-una-historia-que-alerto-a-colectivos-feministas-evelyn-amigos-acoso-sexuales/427068); durante y después de la manifestación una redada policial detuvo, golpeó, arrestó y mantuvo incomunicadas durante tres horas a 22 mujeres. Algunas de ellas participantes de la manifestación y otras solo iban pasando por el lugar.
 
-![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
+# ¿Por qué lapolicianomecuida.org?
 
-## Search Movies
+Es un espacio de memoria para las mujeres que fueron víctimas de la injusticia y represión policial. En un principio pensado en lo sucedido en León, pero inclusivo a todas aquellas que han sido víctimas del sistema patriarcal.
 
-![search](https://www.sketchappsources.com/resources/source-image/microsoft-windows-10-virtual-keyboard-diogo-sousa.png)
 
 <p class="text-center">
-{% include elements/button.html link="https://github.com/YoussefRaafatNasry/portfolYOU" text="Learn More" %}
+{% include elements/button.html link="https://lapolicianomecuida.org" text="Visitar sitio" %}
 </p>
