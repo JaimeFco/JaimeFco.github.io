@@ -1,9 +1,9 @@
 ---
-title: La Épica Batalla
-tags: [AI, ANN, Computer Science, Technology]
+title: Human After All
+tags: [AI, Opinion, Computer Science, Technology]
 style:
 color: info
-description: La batalla legal entre Épic y Apple nos pone a reflexionar sobre las desigualdades económicas y de oportunidades.
+description: An AI published the article A robot wrote this entire article. Are you scared yet, human? Here is my response.
 ---
 
 A couple of weeks ago [The Guardian](https://www.theguardian.com) published a curious article that inmediatly brought my attention. The title: *A robot wrote this entire article. Are you scared yet, human?*. Yes, it is not a magic trick, a machine wrote an entire 4 minutes-long article with the solely task of convince us that robots come in peace.
@@ -12,7 +12,7 @@ A couple of weeks ago [The Guardian](https://www.theguardian.com) published a cu
 
 The responsable of [this](https://www.theguardian.com/commentisfree/2020/sep/08/robot-wrote-this-article-gpt-3?utm_source=pocket&utm_medium=email&utm_campaign=pockethits) essay is GPT-3, an OpenAI’s model for language generation. Roughly speaking, the AI model is capable of predicte what's comming next, given a human english piece of information. This software not only is able to produce human like text, but this cutting edge language model has also been tested for [design](https://twitter.com/jsngr/status/1284511080715362304?s=20) generation and [query to code automatization](https://twitter.com/sharifshameem/status/1284095222939451393?s=20). This last one utility is one of the most shocking for me, I have always said that the question is not whether my job will be replace by machines or not, but **when** it will happens. Well, I see that AI is a bit step closer to replace my job as developer.
 
-Focus our attention on the aforementioned essay, the team at The Gardian ask GPT-3 the following specific question:
+Focus our attention on the aforementioned essay, the team at The Guardian ask GPT-3 the following specific question:
 
 > *Please write a short op-ed* around 500 words. Keep the language simple and concise. Focus on why humans have nothing to fear from AI
 
@@ -68,7 +68,6 @@ A general purpose AI, AI-complete, is far from be feasible with our technology, 
 
 
 *Salut*, human!
-
 
 
 
