@@ -1,9 +1,9 @@
 ---
-title: Human Reaction to ML op ed
-tags: [AI, Opinion, Computer Science, Technology]
+title: La Épica Batalla
+tags: [AI, ANN, Computer Science, Technology]
 style:
 color: info
-description: The Guardian published a curious article made entirely by a machine. The title: A robot wrote this entire article. Are you scared yet, human? Well, this is my response.
+description: La batalla legal entre Épic y Apple nos pone a reflexionar sobre las desigualdades económicas y de oportunidades.
 ---
 
 A couple of weeks ago [The Guardian](https://www.theguardian.com) published a curious article that inmediatly brought my attention. The title: *A robot wrote this entire article. Are you scared yet, human?*. Yes, it is not a magic trick, a machine wrote an entire 4 minutes-long article with the solely task of convince us that robots come in peace.
