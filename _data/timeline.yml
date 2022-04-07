@@ -3,8 +3,8 @@
   to: Today
   description: Fundador y director del departamento de innovación de Mixtemi,
                empresa cuya misión es insertar a las pequeñas y medianas empresas
-               a la insdustria 4.0 por medio de tecnologías de Cómputo en la Nube,
-               Internet de las cosas e Inteligencia Artificial.
+               a la industria 4.0 por medio de tecnologías de Cómputo en la Nube,
+               Internet de las Cosas e Inteligencia Artificial.
 
 - title: Student, DEMAT Universidad de Guanajuato
   from: 2015
@@ -22,15 +22,15 @@
                pendiente de publicación <i>The Growth of Civil Society Organisations
                in México</i>.
 
-- title: Intern, MITACS Globalink, Ca
-  from: June 2019
-  to: Sep 2019
-  description: Estancia de investigación en <i>Western University</i> con proyecto de
-               <i>smart mobility</i> y <i>edge computing</i>.
-
 - title: Intern, Continental, Mx
   from: 2020
   to: 2019
   description: Realicé una pasantía en el área de <i>Artificial Inteligence & Robotics</i> (AIRS),
                trabajando en métodos de cuantización para modelos de <i>Deep Learning</i>.
                Desafortunadamente no puedo compartir detalles del proyecto 🤭.
+
+- title: Intern, MITACS Globalink, Ca
+  from: June 2019
+  to: Sep 2019
+  description: Estancia de investigación en <i>Western University</i> con proyecto de
+               <i>smart mobility</i> y <i>edge computing</i>.
