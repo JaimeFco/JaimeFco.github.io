@@ -25,7 +25,7 @@ Primer hago un análisis del tramado de las rutas y críticas que se le pueden h
 
 De acuerdo al Programa de Movilidad del Municipio de Guanajuato, Capítulo I del 2018, el servicio público de transporte de pasajeros contaba con un total de 50 rutas, cuya gráfica se despliga a continuación:
 
-![rutas](rutas.png)
+![rutas](https://i.ibb.co/Bs83fgn/rutas.png)
 
 Un lector no familiarizado con mi ciudad podrá notar, primero, que las calles son irregulares, lo cual presenta un desafío para el problema que nos ocupa; en segundo lugar se observa que varias rutas pasan por los mismos lugares, lo cual dificulta la lectura del mapa. ¿Cómo es que están estructuradas estas rutas? El sistema de transporte actual está enfocado a proporcionar rutas que privilegian reducir el número de transbordajes por medio de rutas que te llevan de un punto a otro de la ciudad. Este enfoque tiene sentido pues, de acuerdo al estudio previamente mencionado, existen más de 45 concesionarios que proporcionan su servicio de forma independiente unos de otros, unos con un camión y otros con más de 20, sumándo un parque de cerca de 200 unidades divididas en 50 rutas.
 
@@ -39,7 +39,7 @@ Siguiendo con esta serie de analogías, ahora imaginemos que se cuenta con un pa
 
 Por último, centremos ahora en este otro mapa que fue tomado del mismo estudio:
 
-![densidad-rutas](densidad-rutas.png)
+![densidad-rutas](https://i.ibb.co/2F6rsgx/densidad-rutas.png)
 
 En la imagen se aprecia la densidad de las rutas, es decir, el número de rutas que pasan por cierta ubicación. Esto muestra como la densidad es desigual en varias zonas, habiendo lugares donde la densidad de autobuses es alta, pero de forma desincrinizada debido a que cada camión hace su recorrido en función de su ruta y no tanto de las demás, de forma tal que esos puntos de acumulación no presentan una frecuencia regular de autbuses. Más aún, es de esperarse que esta correlación responda a la densidad de pasajeros, lo que nos lleva a preguntarnos si sería mejor dividir las rutas en trozo más pequeños, fáciles de controlar y de predecir sus tiempos de recorridos. 
 
@@ -51,11 +51,11 @@ Puede parrecer containtuitivo, pero en realidad hay diversos estudios que muetra
 
 Para ilustrar lo anterior, cito un artículo de un grupo de investigadores del Instituto de Estudios en Transporte de Berkeley. El artículo puede ser consultado en [este enlace](https://escholarship.org/uc/item/3996t4c6). El estudio describe los efectos de la renovación del transporte público en Barcelona, sistema que fue restructurado en 2012. Les dejo una imagen de cómo lucía el antiguo tramado de las rutas:
 
-![barcelona_old](barcelona_old.png)
+![barcelona_old](https://i.ibb.co/1RgrTM4/barcelona-old.png)
 
 Es de notar el complejo tramado de las rutas. En el artículo se menciona que antes de 2012 habían 63 rutas que seguían la estrategia de "rutas directas", la misma estrategia que se usa actualmente en Guanajauto, conrutas que evitan transbordaje en la medida de lo posible. El antiguo sistema fue reemplazado por 28 rutas nuevas y 20 complementarias que se conservaron del tramado original. El resultado en 2018 fue el siguiente:
 
-![barcelona_new](barcelona_new.png)
+![barcelona_new](https://i.ibb.co/0JJKjRf/barcelona-new.png)
 
 Podemos contemplar en las nuevas líneas un trazado más estructurado, sin rutas duplicadas y con puntos de curce de fácil identificación.
 
@@ -71,17 +71,25 @@ En la misma dirección transitó Seúl en 2004, cuyo sistema recordaba mucho al 
 
 ![seoul](https://i.ibb.co/fCz2ywy/seoul.jpg)
 
-El cambio fue muy positivo. De acuerdo con el sitio web [Reinventing transport](https://www.reinventingtransport.org/2019/04/simplify-and-connect.html?m=1), este cambio disminuyó la competencia por el pasaje, estabilizó los tiempos de espera, redujo el cosoto operacional y el tráfico en la ciudad.
+El cambio fue muy positivo. De acuerdo con el sitio web [Reinventing Transport](https://www.reinventingtransport.org/2019/04/simplify-and-connect.html?m=1), este cambio disminuyó la competencia por el pasaje, estabilizó los tiempos de espera, redujo el cosoto operacional y el tráfico en la ciudad.
 
 Con estos dos casos de éxito se ilustra la idea de cómo a veces menos es más. Rutas más cortas es ls clave. 
 
 Ahora, si no se quiere ver ejemplos externos, los mismos autores del Programa de Movilidad del Municipio de Guanajuato: Capítulo I, ya menciona que "el prolongamiento de las rutas y exceso de viajes hacen que se reduzca la eficiencia operacional de la ruta."
 
+Como nota al margen, el año pasado se realizó un cambio de parada, de una parada terminal muy solicitada, a otra que lo es menos pero con más conexiones. Este enfoque se justificó en una transición al enfoque de transbordaje, sin embargo sin un sistema de libre transbordaje, el efecto fue contraproducente pues ahora más personas necesitan transbordar, pero para hacerlo tienen que pagar doble pasaje. O en su defecto, caminar el resto de su trayecto. Esta medida afectó en mayor medida a quienes viven en las comunidades apartadas del centro, y a los adultos mayores y personas con discapacidad, quienes no tienen la alternativa de caminar a su destino y se ven firzados a transbordar. 
+
+Recordemos que para obtener resultados positivos, se requiere un sistema de transbordaje libre: transbordar el número de veces que sean necesarios para llegar a tu destino, por un único precio.
+
 ## Análisis de las paradas
 
 Dado el análisis de las rutas, debería quedar más o menos claro la dirección que debe llevar la renovación del sistema: la creación de un Sistema Integrado de Transporte donde los usuarios puedan hacer transbordajes libremente a través de rutas más cortas que se conecten unas a otras. Es justo esas conexiones las que abordamos aquí.
 
+El año pasado se intentó 
+
 Uno de los principales problemas del sistema de transporte de la ciudad es la falta de infraestructura vial. En particular, el estudio de 2018 menciona que de las más de 800 paradas de camión, solo alrededor de 180 son "oficiales", es decir, tienen una señalética que los oficializa. Incluso podemos ubicar 140 de ellos en un mapa:
+
+<img src="https://i.ibb.co/LRpLPXB/map-bus-stops.png" alt="bus_stops" style="zoom:120%;" />
 
 
 
