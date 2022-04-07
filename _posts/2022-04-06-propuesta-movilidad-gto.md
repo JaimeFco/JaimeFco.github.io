@@ -83,27 +83,96 @@ En los ejemplos citados se hace incapié en que para obtener resultados positivo
 
 ## Análisis de las paradas
 
-Dado el análisis de las rutas, debería quedar más o menos clara la dirección que debe llevar la renovación del sistema: ==la creación de un Sistema Integrado de Transporte donde los usuarios puedan hacer transbordajes libremente a través de rutas más cortas que se conecten unas a otras==. Es justo esas conexiones las que abordamos aquí.
+Dado el análisis de las rutas, debería quedar más o menos clara la dirección que debe llevar la renovación del sistema: la creación de un Sistema Integrado de Transporte donde los usuarios puedan hacer transbordajes libremente a través de rutas más cortas que se conecten unas a otras. Es justo esas conexiones las que abordamos aquí.
 
 Uno de los principales problemas del sistema de transporte de la ciudad es la falta de infraestructura vial. En particular, el estudio de 2018 menciona que de las más de 800 paradas de camión, solo alrededor de 180 son "oficiales", es decir, tienen una señalética que los oficializa. Incluso podemos ubicar 140 de ellos en un mapa:
 
 <img src="https://i.ibb.co/LRpLPXB/map-bus-stops.png" alt="bus_stops" style="zoom:120%;" />
 
+Podemos obsevar que las rutas oficiales no se distribuyen de manera uniforme en la ciudad, así que con el tiempo los usuarios han demandado nuevas paradas que actualmente constituyen más del 70 % de las paradas totales. 
 
+¿Por qué formalizar las paradas?
 
-- Propuesta de paradas de transferencia modal
-- Creación de una ruta centro para turismo y para conectar paradas de transferencia modal
-- Señalización de paradas y supresión de no oficiales
+Para empezar, porque nos gustaría poderlas identificar en un mapa. Pero más allá, para que se le dote de la infraestructura adecuada, esto es, señalética, lugar donde se puedan orrillar los camiones, y en algunos casos un cruce peatonal. 
+
+Otra cosa que se puede hacer para mejorar el servicio, es planificar las paradas de cruce entre líneas, pues estas deberán preparase para albergar más camiones y mayor flujo de personas. Actualmente existen dos paradas en donde confluyen varias rutas. La primera es la antigua estación de trenes, que con el cambio establecido el año pasado, se convirtió en la parada con mayor afluencia. La segunda es la del puente Marlboro, donde confluyen varias rutas de la zona sur a la zona centro.
+
+En la búsqueda de la implementación de un sistema integrado de transporte, se deben establecer las paradas de transferencia siguiendo las siguientes nociones básicas:
+
+- Concentren varias líneas
+- Confluya una o más líneas de alta demanda
+- Quede cerca de centros de trabajos, locales comerciales y oficinas de gobierno, lugares a los que la población podría acudir desde la parada
+- Se distribuyan de forma equitativa en la ciudad
+- Exista forma de moverse de una a otra en pocas rutas
+
+Siguiendo esas guías, la parada de la exestación y la de la Alhóndiga cumplen con dichos requisitos, a lo cual se añadiria una parada en la zona sur, zona en la que habitan más del 30 % de la población guanajuatense, una en la zona de embajadoras y otra en Marfil. Dado lo anterior, muestro en un mapa algunas propuestas de paradas de transferencia:
+
+- Glorieta El Laurel
+- Glorieta Santa Fe
+- Plaza Alaïa
+- Embajadoras
+- Alhóndiga
+- Antigua estación de ferrocarriles
+
+![paradas_principales](https://i.ibb.co/b6x2mGs/paradas.png)
+
+En el plan de 2018 se sugería formalizar las paradas de transferencia modal en El Laurel, Exestación y Embajadoras, complementarias a las ya existentes como Glorieta Santa Fe y Alhóndiga. Sin embargo es revelador llegar a esta sugerencia por el análisis de los datos presentados en la sección anterior. En particular se observa como las paradas corresponden a la mancha urbana y tratan de ser equidistantes con una salvedad: en la zona centro, abajo de la leyenda "Guanajuato" se encuentra una gran área densamente habitada donde podría colocarse una parada intermedia entre Embajadoras y Alhóndiga. La excepción aquí correponde a que en el centro histórico se busca evitar que confluyan varios camiones, además de que es inviable la construcción de la infraestructura necesaria.
+
+Este último punto debe solventarse con la implementación de una ruta que conecte la zona centro con las paradas de transferencia. La solución que propongo es la creación de una ruta por el centro histórico.
+
+![ruta_centro](https://i.ibb.co/ZSnNK4h/ruta-centro.png)
+
+Con el trazado que se muestra en el mapa, se observa una mejor integración entre las 3 paradas de la zona centro, con una ruta exestación-embajadoras vía Alhóndiga.
+
+Ésta ruta sería la única que pasaría por el centro histórico de la ciudad y que simplifica la gran densidad de líneas que se tiene actualmente (ver mapa de densidad de rrutas en la sección anterior).
+
+Para continuar con las conexiones entre las paradas principales, se debe observar el otro tramo de gran acumulación de rutas: el bulevar Euquerio Guerrero. De esta zona se puede llegar a las paradas por 3 vías: una que vaya rumbo a Marfil y pase por la Glorieta del Laurel, otra que vaya directo a la Alhóndiga y una más que vaya rumbo a la presa de forma directa. No hay más entradas a la ciudad. Es por esto que todas las rutas principales quedarían así:
+
+<img src="https://i.ibb.co/g34Lgzt/vias-principales.png" alt="rutas_principales" style="zoom:120%;" />
+
+Una disculpa si se despliegan todas del mismo color, las pensé primero como rutas de Google Maps pero estoy mudándome a OpenStreetMaps para poder programarlas con Python. Son 5 las rutas que podríamos denominar "Troncales" y que forman el eje principal del sistema:
+
+1. Ruta Centro Histórico (Exestación-Embajadoras vía Alhóndiga)
+2. Ruta Alaïa-Alhóndiga
+3. Ruta Central de Autobuses-Embajadoras (vía Presa de la Olla)
+4. Ruta Embajadoras-Central de Autobuses (vía Pozuelos)
+5. Ruta Glorieta Santa Fe-Exestación (vía Marfil)
+
+Las rutas troncales propuestas cumplen con los requisitos expuestos en la sección anterior:
+
+- El recorrido es menor al promedio de las rutas existentes
+- Responden a las zonas de más demanda
+- En la medida de lo posible evita circuitos
+- Conecta las paradas de mayor afluencia y de donde partirán las rutas de menor afluencia llamadas "ramales"
+
+Para ilustrar los puntos anteriores, observe que las rutas que van a La Saceda, Lomas del Padre, Villas de Guanjuato, Mártires 22 de Abril, entre otras rutas que conectan colonias de la zona sur con el centro de la ciudad, pueden ser sustituidas por la combinación de una ruta troncal y una ruta ramal que parta de una parada principal como la Glorieta Santa Fé o la plaza Alaïa, y que haga un recorrido por la colonia de interés. Con este sistema se resuelve:
+
+- Se aumenta la frecuencia de autobuses en zonas de más demanda, al establecer solo 5 rutas troncales que trabajan de manera coordinada, en zonas donde actualmente pasan más de 20 rutas (acuérdense del ejemplo de menos rutas = mayor frecuencia)
+- Para alimentar las paradas pricipales, se establecen rutas ramales que abarcan una mayor cobertura, dejando a los usuarios más cerca de sus destinos
+- Perimite aumentar o disminuir la frecuencia de una forma más flexible respondiendo a la demanda de los usuarios
+
+Este nuevo diseño de las rutas y paradas, es tentativo y lo presento para ilustrar las ventajas de un nuevo sistema integrado de transporte, pero quiero que quede claro que el número de paradas de transferencia podría incrementarse (por ejemplo con alguna intermedia ente la Glorieta El Laurel y la exestación). Un trazado definitivo debe corresponder a las demandas de movilidad de la población y a la infraestructura que se requiera, además considero que para mejorar la fácil adaptavilidad de los usuarios, propongo que las rutas urbanas actuales puedan se cubierta cubiertas con a lo más una transferencia en el nuevo sistema, y que se pueda ir de un lugar a otro de la ciudad en a lo más 2 transferencias (ruta ramal + ruta troncal + ruta ramal).
+
+Respecto a la infraestructura, en la Glorita Santa Fé se puede acondicionar la glorieta como un lugar de transferencia, pues a pesar de la construcción de andadores, ésta sigue siendo subutilizada y bien puede dar paso a una central multimodal (más adelante hablo de esto). Otro ejemplo es la glorieta El Laurel. Al día de hoy a pesar de ser una parada con gran demanda, carece de cruces peatonales bien demarcados y de lugar amplio para el acomodo de los camiones. En contraste a estos dos lugares, la parada del centro comercial Alaïa cuentan con amplios espacios como para albergar hasta 5 camiones al mismo tiempo, pero la parada es subutilizada.
+
+Y cuando nos referimos a "infraestructura", ¿a qué nos estamos refiriendo? Eso lo abordaré en otra ocasión, donde comparto mi experiencia de cómo lo hacen en otras ciudades donde he usado el transporte público: Quebec, Montréal, León Gto. y London, On.
+
+En particular quedan pendientes los siguientes puntos:
 
 ## Métodos para la realización de transferencias
 
+- Caso León y diferencias con Guanajuato
+- Ciudades con un casco histórico patrimonio de la humanidad
+- La clave: tecnologías a bordo
+- Unidades de piso bajo
+
 ## Integración con otras propuestas de movilidad
 
-- La importacia del uso masivo del transporte público y disminución del uso de automóvil
+- La importacia del uso masivo del transporte público y disminución del automóvil
 - Propuesta de servicios adicionales de transporte público
   - Vías rápidas
   - Horarios nocturnos
-- Propuesta de ciclovías
+- Propuesta de ciclovías que complementen el servicio
 - Restricción de la movilidad en el centro histórico
 - Posibles carriles exclusivos para el transporte público
 
