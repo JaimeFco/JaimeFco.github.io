@@ -2,7 +2,7 @@
 title: Propuesta de Modernización del Transporte Público en Guanajuato.
 tags: [Transport, Optimal, Social, Design, Politics]
 style:
-color: info
+color: success
 description: Realizo una propuesta para mejorar el transporte público en mi ciudad natal, con la finalidad de presentarla ante gobierno municipal y la población en general.
 
 ---
@@ -17,7 +17,7 @@ El punto de partida para evaluar el sistema fue un estudio del sistema de transp
 
 El resto del post se divide como sigue:
 
-Primer hago un análisis del tramado de las rutas y críticas que se le pueden hacer considerando investigación reciente en el área. En especial, me centro en la idea de acortar el recorrido de las rutas y eliminar, en la medida de lo posible, los circuitos. En la segunda sección abordo el problema de las paradas, donde realizo una propuesta de puntos de transferencia y problemas del sistema actual que se pueden solucionar con un sitema integrado de transporte (aquel donde todo el sistema de transporte actua como uno solo). 
+Primer hago un análisis del tramado de las rutas y críticas que se le pueden hacer considerando investigación reciente en el área. En especial, me centro en la idea de acortar el recorrido de las rutas y eliminar, en la medida de lo posible, los circuitos. En la segunda sección abordo el problema de las paradas, donde realizo una propuesta de puntos de transferencia y problemas del sistema actual que se pueden solucionar con un sitema integrado de transporte (aquel donde todo el sistema de transporte actua como uno solo).
 
 En un segundo post que publicaré más adelante, abordaré algunas ideas de cómo se puede llegar a esta propuesta y qué otras opciones se pueden considerar para enriquecerla.
 
@@ -29,11 +29,11 @@ De acuerdo al Programa de Movilidad del Municipio de Guanajuato, Capítulo I del
 
 Un lector no familiarizado con mi ciudad podrá notar, primero, que las calles son irregulares, lo cual presenta un desafío para la planeación de rutas; en segundo lugar se observa que varias rutas pasan por los mismos lugares, lo cual dificulta la lectura del mapa. Esto nos lleva a preguntarnos cómo es que están estructuradas las rutas existentes. El sistema de transporte actual está enfocado en proporcionar rutas que privilegian reducir el número de transbordajes por medio de rutas que parten de un punto y te llevan a otro. Este enfoque tiene sentido pues, de acuerdo al estudio previamente mencionado, existen más de 45 concesionarios que proporcionan su servicio de forma independiente, unos participando con un camión y otros con más de 20, sumándo un parque de cerca de 200 unidades divididas en 50 rutas.
 
-Esta forma de organizar presenta la ventaja de no tener que transbordar y pagar dos o más pasajes, en cambio presenta algunas desventajas. La primera, y la más evidente, es la poca legibilidad que tiene el mapa de rutas, un diseño algo complejo que impide su comprendimiento y aleja a usuarios eventuales y primerizos del sistema. Lo segundo, es que bajo este esquema, las rutas del transporte tienen una longitud considerable. De acuerdo al estudio, la longitud del recorrido de las rutas tiene un promedio de **26.88 km.** con una desviación estándar de 14.7 km. De esto podemos concluir que hay una gran variabilidad de distancias entre las rutas, pero que en general presentan una distancia de recorrido grande. Aún si se considera solo las rutas de modalidad urbana, se tiene un promedio de 16.2 km. de recorrido. 
+Esta forma de organizar presenta la ventaja de no tener que transbordar y pagar dos o más pasajes, en cambio presenta algunas desventajas. La primera, y la más evidente, es la poca legibilidad que tiene el mapa de rutas, un diseño algo complejo que impide su comprendimiento y aleja a usuarios eventuales y primerizos del sistema. Lo segundo, es que bajo este esquema, las rutas del transporte tienen una longitud considerable. De acuerdo al estudio, la longitud del recorrido de las rutas tiene un promedio de **26.88 km.** con una desviación estándar de 14.7 km. De esto podemos concluir que hay una gran variabilidad de distancias entre las rutas, pero que en general presentan una distancia de recorrido grande. Aún si se considera solo las rutas de modalidad urbana, se tiene un promedio de 16.2 km. de recorrido.
 
 ¿Por qué nos importa la longitud del recorrido y la simplicidad de la maraña de rutas? Porque impacta directamente a la predictibilidad del tiempo de recorrido, a la imposibilidad de planear frecuencias *ad hoc* al tramo de la ruta que se maneja y al poco aprovechamiento del número de unidades. Voy a desmembrar cada punto.
 
-Todo el mundo sabe que cuando se nos hace tarde el universo pareciera conspirar en nuestra contra, y lo que en una mañana fue un retraso de 5 minutos, puede convertirse en un retraso de una hora por la tarrde. Esto se debe, en gran medida, a que los imprevistos, que generan los retrasos, son acumulables. Estoes, los pequeños retrasos se van sumando al "atraso total", de forma tal que si consideramos que los imprevistos suceden de forma aleatoria a lo largo del tiempo, **entre más tiempo pasa**, mayor es la probabilidad de que tengamos más retrasos que abonen al problema. Este sistema es completamente análogo a las rutas de camión, pues para una correcta planeación de las frecuencias de los camiones, nos gustaría minimizar el número de imprevistos que le suceden a nuestro camiones. Entre mayor sea la longitud de la ruta, y por tanto mayor el tiempo que se hace en recorrerla, la probabilidad de acumular imprevistos es grande. Es por eso que las rutas con recorridos largos, suelen tener tiempos de recorrido menos predecibles. 
+Todo el mundo sabe que cuando se nos hace tarde el universo pareciera conspirar en nuestra contra, y lo que en una mañana fue un retraso de 5 minutos, puede convertirse en un retraso de una hora por la tarrde. Esto se debe, en gran medida, a que los imprevistos, que generan los retrasos, son acumulables. Estoes, los pequeños retrasos se van sumando al "atraso total", de forma tal que si consideramos que los imprevistos suceden de forma aleatoria a lo largo del tiempo, **entre más tiempo pasa**, mayor es la probabilidad de que tengamos más retrasos que abonen al problema. Este sistema es completamente análogo a las rutas de camión, pues para una correcta planeación de las frecuencias de los camiones, nos gustaría minimizar el número de imprevistos que le suceden a nuestro camiones. Entre mayor sea la longitud de la ruta, y por tanto mayor el tiempo que se hace en recorrerla, la probabilidad de acumular imprevistos es grande. Es por eso que las rutas con recorridos largos, suelen tener tiempos de recorrido menos predecibles.
 
 Siguiendo con esta serie de analogías, ahora imaginemos que se cuenta con un parque vehicular de 20 camiones y tenemos 10 rutas que servir, si quisiéramos repartir las unidades en las rutas a partes iguales, podríamos asignar 2 camiones a cada ruta. Si simplificamos las rutas a 5, y conservamos el mismo parque vehicular, ¿de a cuántos camiones le tocarían a cada ruta? De a 4. Con este proceso logramos duplicar la frecuencia de los camiones en las rutas sin incrementar el parque vehicular. Aquí radica la idea de que un grafo más simple, por ejemplo con rutas más cortas y bien planeadas, es capaz de incrementar la frecuencia y reducir los tiempos de espera. Volviendo al ejemplo, con 5 rutas y cuatro camiones por ruta, se anda ahora más olgado de camiones por ruta, lo que permite asignar más camiones a unas rutas en ciertos momentos, y más a otras en otro momento. Cuando se tenían 10 rutas, no se contaba con mucha libertad porque cambiar un camión de ruta, ¡te dejaba un solo camión por cubriendo una ruta!
 
@@ -43,7 +43,7 @@ Por último, les presento otro mapa que fue tomado del mismo estudio:
 
 En la imagen se aprecia la densidad de las rutas, es decir, el número de rutas que pasan por cierta ubicación. Esto muestra como la densidad es desigual en varias zonas, habiendo lugares donde la densidad de autobuses es alta, pero de forma desincronizada debido a que cada camión hace su recorrido en función de su ruta y no tanto de las demás, de forma tal que esos puntos de acumulación no presentan una frecuencia regular de autobuses. Más aún, es de esperarse que esta correlación responda a la densidad de pasajeros, lo que nos lleva a preguntarnos si sería mejor dividir las rutas en trozo más pequeños, fáciles de controlar y de predecir sus tiempos de recorridos, de forma tal que las rutas en zonas de alta densidad tengan una frecuencia elevada, mientras que las rutas con poca densidad se conecten con estas por medio de transferencias gratuitas y disminuya un poco su densidad conservando el parque vehicular. Justo en esto se centra mi propuesta.
 
-Las rutas más cortas resuleven las desventajas que presentan las rutas largas, teniendo un precio que pagar: hacer transbordos. 
+Las rutas más cortas resuleven las desventajas que presentan las rutas largas, teniendo un precio que pagar: hacer transbordos.
 
 ¿Es esto malo?
 
@@ -73,11 +73,11 @@ En la misma dirección transitó Seúl en 2004, cuyo sistema recordaba mucho al 
 
 El cambio fue muy positivo. De acuerdo con el sitio web [Reinventing Transport](https://www.reinventingtransport.org/2019/04/simplify-and-connect.html?m=1), este cambio disminuyó la competencia por el pasaje, estabilizó los tiempos de espera, redujo el cosoto operacional y el tráfico en la ciudad.
 
-Con estos dos casos de éxito se ilustra la idea de cómo a veces menos es más. Rutas más cortas es ls clave. 
+Con estos dos casos de éxito se ilustra la idea de cómo a veces menos es más. Rutas más cortas es ls clave.
 
 Ahora, si no se quiere ver ejemplos externos, los mismos autores del Programa de Movilidad del Municipio de Guanajuato: Capítulo I, ya menciona que "el prolongamiento de las rutas y exceso de viajes hacen que se reduzca la eficiencia operacional de la ruta."
 
-Cabe aclarar que después de la elaboración del programa, justo el año pasado, se realizó un cambio de parada, de una parada terminal muy solicitada, a otra que lo es menos pero con más conexiones. Este enfoque se justificó en una transición al enfoque de transbordaje, sin embargo generó más molestias que ventajas. La nueva parada se encuentra en una zona más alejada del centro de la ciudad a donde se suele tener más demanda, y sin un sistema de libre transbordaje, ahora más personas necesitan transbordar, pero para hacerlo tienen que pagar doble pasaje. O en su defecto, algunos optan por caminar el resto de su trayecto. Esta medida afectó en mayor medida a quienes viven en las comunidades apartadas del centro, y a los adultos mayores y personas con discapacidad, quienes no tienen la alternativa de caminar a su destino y se ven forzados a transbordar. 
+Cabe aclarar que después de la elaboración del programa, justo el año pasado, se realizó un cambio de parada, de una parada terminal muy solicitada, a otra que lo es menos pero con más conexiones. Este enfoque se justificó en una transición al enfoque de transbordaje, sin embargo generó más molestias que ventajas. La nueva parada se encuentra en una zona más alejada del centro de la ciudad a donde se suele tener más demanda, y sin un sistema de libre transbordaje, ahora más personas necesitan transbordar, pero para hacerlo tienen que pagar doble pasaje. O en su defecto, algunos optan por caminar el resto de su trayecto. Esta medida afectó en mayor medida a quienes viven en las comunidades apartadas del centro, y a los adultos mayores y personas con discapacidad, quienes no tienen la alternativa de caminar a su destino y se ven forzados a transbordar.
 
 En los ejemplos citados se hace incapié en que para obtener resultados positivos, se requiere un sistema de transbordaje libre: transbordar el número de veces que sean necesarios para llegar a tu destino, por un único precio. Implementaciones parciales podrían ser contraproducentes.
 
@@ -89,11 +89,11 @@ Uno de los principales problemas del sistema de transporte de la ciudad es la fa
 
 <img src="https://i.ibb.co/LRpLPXB/map-bus-stops.png" alt="bus_stops" style="zoom:120%;" />
 
-Podemos obsevar que las rutas oficiales no se distribuyen de manera uniforme en la ciudad, así que con el tiempo los usuarios han demandado nuevas paradas que actualmente constituyen más del 70 % de las paradas totales. 
+Podemos obsevar que las rutas oficiales no se distribuyen de manera uniforme en la ciudad, así que con el tiempo los usuarios han demandado nuevas paradas que actualmente constituyen más del 70 % de las paradas totales.
 
 ¿Por qué formalizar las paradas?
 
-Para empezar, porque nos gustaría poderlas identificar en un mapa. Pero más allá, para que se le dote de la infraestructura adecuada, esto es, señalética, lugar donde se puedan orrillar los camiones, y en algunos casos un cruce peatonal. 
+Para empezar, porque nos gustaría poderlas identificar en un mapa. Pero más allá, para que se le dote de la infraestructura adecuada, esto es, señalética, lugar donde se puedan orrillar los camiones, y en algunos casos un cruce peatonal.
 
 Otra cosa que se puede hacer para mejorar el servicio, es planificar las paradas de cruce entre líneas, pues estas deberán preparase para albergar más camiones y mayor flujo de personas. Actualmente existen dos paradas en donde confluyen varias rutas. La primera es la antigua estación de trenes, que con el cambio establecido el año pasado, se convirtió en la parada con mayor afluencia. La segunda es la del puente Marlboro, donde confluyen varias rutas de la zona sur a la zona centro.
 
@@ -175,8 +175,3 @@ En particular quedan pendientes los siguientes puntos:
 - Propuesta de ciclovías que complementen el servicio
 - Restricción de la movilidad en el centro histórico
 - Posibles carriles exclusivos para el transporte público
-
-
-
-
-
